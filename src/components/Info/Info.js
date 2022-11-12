@@ -1,8 +1,8 @@
 import classes from "./Info.module.css";
 
-const Info = ({ heading, text }) => {
+const Info = ({ heading, text, rating }) => {
   return (
-    <div className={classes.InfoInitial}>
+    <div className={rating ? classes.InfoSubmited : classes.InfoInitial}>
       <h1 className={classes.heading}>{heading}</h1>
       <p className={classes.text}>{text}</p>
     </div>

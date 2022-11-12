@@ -1,5 +1,5 @@
 .App {
-  width: 41.2rem;
+  max-width: 41.2rem;
   height: 41.6rem;
   background: radial-gradient(
     98.96% 98.96% at 50% 0%,

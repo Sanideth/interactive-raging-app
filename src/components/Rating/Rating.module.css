@@ -17,4 +17,10 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  color: #fc7614;
+  background: #fff;
 }
