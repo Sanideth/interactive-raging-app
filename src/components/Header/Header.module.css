@@ -1,0 +1,10 @@
+.HeaderInitial {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262e38;
+  margin-bottom: 3rem;
+}
